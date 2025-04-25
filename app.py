@@ -3,25 +3,30 @@ import streamlit as st
 # Page config
 st.set_page_config(page_title="Happy Birthday Harshhh", page_icon="🦄", layout="centered")
 
-# CSS for full pink background and stylish white glowing text
+# CSS styling
 page_style = """
 <style>
 body {
-    background-color: #ff99bb;
+    background-color: #87ceeb;
     margin: 0;
     padding: 0;
 }
 
-h1, h2, p, div, footer {
+/* Only special style for the unicorn heading */
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 6px #ff66a3;
-}
-
-h1 {
     font-size: 3.5rem;
     margin-top: 30px;
+}
+
+/* Regular text styling */
+h2, p, footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
 }
 
 h2 {
@@ -42,10 +47,10 @@ footer {
 """
 st.markdown(page_style, unsafe_allow_html=True)
 
-# Title
+# Special unicorn heading
 st.markdown("<h1>💖 harshhh 🦄 💖</h1>", unsafe_allow_html=True)
 
-# Birthday message box (still centered and clean)
+# Birthday message
 st.markdown("""
 <div style="padding: 2rem;">
     <h2>Happy Birthday to my payri beautiful best friend harshhh!</h2>
@@ -60,9 +65,4 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Confetti blast 🎉
-st.balloons()
-
-# Footer
-st.markdown("<hr style='border: 1px solid white;'>", unsafe_allow_html=True)
-st.markdown("<footer>made by mani to harshhh with 💖</footer>", unsafe_allow_html=True)
+# Confetti 🎉
