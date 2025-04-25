@@ -41,7 +41,7 @@ p {
     text-align: center;
     font-size: 1.3rem;
     line-height: 1.7;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: #4682b4;
     padding: 1rem;
     border-radius: 10px;
     margin: 0 auto;
