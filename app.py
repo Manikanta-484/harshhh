@@ -31,6 +31,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
+    background-color: #FFC0CB;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
