@@ -44,7 +44,7 @@ p {
     line-height: 1.7;
     background-color: #FFC0CB;
     padding: 1rem;
-    border-radius: 10px;
+    # border-radius: 10px;
     margin: 0 auto;
     max-width: 600px;
 }
