@@ -51,7 +51,7 @@ p {
 
 /* Footer */
 footer {
-    background-color: #4682b4;
+    background-color:#E6E6FA;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
