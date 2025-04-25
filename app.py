@@ -83,4 +83,4 @@ st.markdown("""
 st.balloons()
 
 # Footer
-st.markdown("<footer>harshhh 🦄</footer>", unsafe_allow_html=True)
+st.markdown("<footer>From Mani #soyabean </footer>", unsafe_allow_html=True)
