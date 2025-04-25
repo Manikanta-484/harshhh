@@ -26,7 +26,7 @@ h1 {
     margin-top: 30px;
 }
 
-/* Regular text styling */
+/* Birthday wish text */
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -48,11 +48,15 @@ p {
     max-width: 600px;
 }
 
+/* Footer */
 footer {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #4682b4;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-size: 1rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-top: 2px solid white;
     margin-top: 2rem;
 }
 </style>
@@ -75,9 +79,8 @@ st.markdown("""
 </p>
 """, unsafe_allow_html=True)
 
-# Confetti 🎈
+# Confetti 🎉
 st.balloons()
 
 # Footer
-st.markdown("<hr style='border: 1px solid white;'>", unsafe_allow_html=True)
-st.markdown("<footer>made by mani to harshhh with 💖</footer>", unsafe_allow_html=True)
+st.markdown("<footer>harshhh 🦄</footer>", unsafe_allow_html=True)
